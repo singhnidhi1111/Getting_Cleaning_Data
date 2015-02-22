@@ -5,14 +5,14 @@ library("dplyr")
 
 #Reading all the data files
 
-  test_x_data <- read.table("test/X_test.txt", header = FALSE)
-  train_x_data <- read.table("train/X_train.txt", header = FALSE)
-  test_y_data <- read.table("test/Y_test.txt", header = FALSE)
-  train_y_data <- read.table("train/Y_train.txt", header = FALSE)
-  test_sub_data <- read.table("test/subject_test.txt", header = FALSE)
-  train_sub_data <- read.table("train/subject_train.txt", header = FALSE)
-  act_label <- read.table("activity_labels.txt", header = FALSE)
-  feat_label <- read.table("features.txt", header = FALSE)
+  test_x_data <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE)
+  train_x_data <- read.table("UCI HAR Dataset/train/X_train.txt", header = FALSE)
+  test_y_data <- read.table("UCI HAR Dataset/test/Y_test.txt", header = FALSE)
+  train_y_data <- read.table("UCI HAR Dataset/train/Y_train.txt", header = FALSE)
+  test_sub_data <- read.table("UCI HAR Dataset/test/subject_test.txt", header = FALSE)
+  train_sub_data <- read.table("UCI HAR Dataset/train/subject_train.txt", header = FALSE)
+  act_label <- read.table("UCI HAR Dataset/activity_labels.txt", header = FALSE)
+  feat_label <- read.table("UCI HAR Dataset/features.txt", header = FALSE)
 
 # Combine test and training data
 
