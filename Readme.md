@@ -11,6 +11,9 @@ The `run_analysis.R` script cleans and summarizes the data and produces a tidy d
 
 The script assumes that there is a folder called *UCI HAR Dataset* in your Working Directory with all the data provided as a part of that dataset.
 
+The original dataset is available [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+More information on the dataset is available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 The code book is avaliable for this tidy data as `CodeBook.md`.
 
 ####Cleaning and Summarizing Steps
